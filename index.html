@@ -46,6 +46,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -82,11 +84,11 @@
             LIVE: ZSNHS-SHS ESPORT BRACKET
         </div>
 
-
-        <!-- ML -->
         <section>
             <h1>🎮 Mobile Legends: Bang Bang</h1>
-            <iframe src="https://challonge.com/g5bm70sw/module" scrolling="auto" allowtransparency="true"></iframe>
+            <iframe src="https://challonge.com/g5bm70sw/module" scrolling="auto" allowtransparency="true"
+                loading="lazy">
+            </iframe>
 
             <div class="mobile-link">
                 <a href="https://challonge.com/g5bm70sw.svg" target="_blank">
@@ -95,10 +97,12 @@
             </div>
         </section>
 
-        <!-- Mobile Legends -->
         <section>
             <h1>🔫 Call of Duty: Mobile</h1>
-            <iframe src="https://challonge.com/6nh5hsos/module" scrolling="auto" allowtransparency="true"></iframe>
+            <iframe src="https://challonge.com/6nh5hsos/module" scrolling="auto" allowtransparency="true"
+                loading="lazy">
+            </iframe>
+
             <div class="mobile-link">
                 <a href="https://challonge.com/6nh5hsos.svg" target="_blank">
                     📱 View Mobile-Friendly Bracket
@@ -115,14 +119,7 @@
     </footer>
 
 
-    <script>
-        const hamburger = document.querySelector('.hamburger');
-        const navList = document.querySelector('.nav--list');
 
-        hamburger.addEventListener('click', () => {
-            navList.classList.toggle('active');
-        });
-    </script>
 
 </body>
 
