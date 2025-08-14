@@ -218,7 +218,7 @@ footer {
   .nav--list {
     position: absolute;
     top: 60px;
-    right: -100%;
+    right: 10px;
     flex-direction: column;
     background-color: #1e293b;
     width: 200px;
