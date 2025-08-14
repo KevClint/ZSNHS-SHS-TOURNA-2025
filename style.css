@@ -226,10 +226,12 @@ footer {
     padding: 15px;
     border-radius: 0 0 10px 10px;
     gap: 10px;
+    display: none;
   }
 
   .nav--list.active {
     right: 0;
+    display: block;
   }
 
   .hamburger {
